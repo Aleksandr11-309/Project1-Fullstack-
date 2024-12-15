@@ -1,0 +1,9 @@
+body{
+    color: #fafafa;
+    background-color: rgb(9, 9, 11, 1);
+}
+
+.navBar img{
+    height: 18px;
+    width: 18px;
+}
