@@ -6,7 +6,13 @@ body{
 .left_navbar{
     position: fixed;
     border: 2px solid #ffffff;
+    height: 100%;
 }
+
+/* ???? */
+/* .left_navbar_container{
+    position: relative;
+} */
 
 .left_navbar ul{
     padding-left: 0;
@@ -17,19 +23,25 @@ body{
     width: 25px;
 }
 
-.left_navbar_container{
+.left_navbar_item{
     display: flex;
 }
 
-.left_navbar_container:hover{
+/* ???? */
+/* .feedback{
+    color: green;
+    align-items: end;
+} */
+
+.left_navbar_item:hover{
     background-color: #f85d5d;
 }
 
-.left_navbar_container span{
+.left_navbar_item span{
     display: none;
 }
 
-.left_navbar_container:hover span{
+.left_navbar_item:hover span{
     display: block;
 }
 
@@ -40,11 +52,12 @@ body{
 
 .top_navbar{
     position: fixed;
-    left: 4%;
+    width: 100%;
     border: 2px solid #ffffff;
 }
 
 .top_navbar_container{
+    margin-inline: 20%;
     display: flex;
     align-items: center;
 }
@@ -65,4 +78,17 @@ body{
     color: #ffffff;
     background-color: #09090B;
     padding: 9px 12px;
+}
+
+
+
+.main_container{
+    position: absolute;
+    top: 15%;
+    left: 20%;
+}
+
+.main_container img{
+    height: 40px;
+    border-radius: 100%;
 }
