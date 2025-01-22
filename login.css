@@ -1,10 +1,8 @@
 body{
+    height: 100vh;
     margin: 0;
     color: #fafafa;
     background-color: #09090B;
-    background: url('./helloWorld.webp');
-    background-repeat: no-repeat;
-    background-size: 100%;
 }
 
 
@@ -133,117 +131,30 @@ body{
 
 
 
-
-
-/* MAIN */
-.main_container{
-    margin-inline: 10%;
-    height: 100%;
-    padding-top: 5%;
-    border: 2px solid yellow;
-}
-
-.main_container img{
-    height: 40px;
-}
-
-.authors_liked_it{
+/*MAIN*/
+main{
+    border: 2px solid red;
+    margin-top: 4%;
+    margin-left: 4%;
     width: 100%;
-    border: 0 solid rgba(255, 0, 0, 0);
-}
-
-.authors_liked_it_header{
-    display: flex;
-    align-items: center;
-    gap: 50%;
-    margin-bottom: 20px;
-    border: 1px solid white;
-}
-
-.left_block{
-    display: flex;
-    align-items: center;
-    border: 1px solid white;
-}
-
-.right_block{
-    display: flex;
-    align-items: center;
-    border: 1px solid white;
-}
-
-.external_text{
-    padding: 8px 16px;
-    background-color: #27272A;
-}
-
-.inner_text{
-    padding: 2px 10px;
-    color: #18181B;
-    background-color: #fafafa;
-}
-
-.buttons_less_greater{
 
 }
 
-.buttons_less_greater span{
-    margin-left: 20px;
-    padding: 8px 13px;
-    background-color: #18181B;
+.sign_in_container{
+    border: 2px solid yellow;
+    width: 1363px;
+    height: 700px;
 }
 
-.list{
-    display: flex;
-    gap: 5%;
-    margin: 0;
-    padding: 0;
-    border: 1px solid white;
-}
-
-.list-background{
-    height: 155px;
-    width: 270px;
-    background: url('images/background.svg');
-    background-repeat: no-repeat;
+.image{
+    background: url('images/noimage-single-big.jpeg');
     background-size: cover;
-    border-radius: 10%;
 }
 
-.list_header{
-    display: flex;
-    align-items: center;
-    border: 1px solid white;
+.image img{
+    width: 200px;
+    height: 54px;
 }
-
-.list_main{
-    border: 1px solid white;
-}
-
-.list_footer{
-    display: flex;
-    align-items: center;
-    border: 1px solid white;
-}
-
-
-
-
-/* FOOTER */
-.footer_container{
-    margin-left: 10%;
-    padding-top: 5%;
-}
-
-.footer_container img{
-    height: 20px;
-    width: 20px;
-    padding: 10px;
-    border: 1px solid rgb(24, 24, 27, 1);
-    border-radius: 40%;
-    background-color: rgb(24, 24, 27, 1);
-}
-
 
 
 
