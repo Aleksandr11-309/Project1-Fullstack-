@@ -146,14 +146,28 @@ main{
     height: 700px;
 }
 
+.left-block_sign_in_container{
+    border: 2px solid white;
+
+}
+
 .image{
+    border: 2px solid white;
     background: url('images/noimage-single-big.jpeg');
-    background-size: cover;
+    background-size: 680px 699px;
 }
 
 .image img{
+    display: flex;
+    border: 2px solid green;
+    margin: 20px;
     width: 200px;
     height: 54px;
+}
+
+.image span{
+    display: flex;
+    margin-top: 110%;
 }
 
 
