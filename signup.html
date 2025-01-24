@@ -3,7 +3,8 @@
     <head>
         <meta charset="UTF-8">
         <title>Риса за творчество</title>
-        <link rel="stylesheet" href="signup.css">
+        <link rel="stylesheet" href="css/navbar.css">
+        <link rel="stylesheet" href="css/signup.css">
         <link rel="icon" href="images/rzt.png" type="image/png">
     </head>
     <body class="flex">
@@ -99,35 +100,35 @@
             <div class="left_margin">
                 <div class="upper_margin">
                     <main class="main">
-                        <div class="form">
+                        <form class="form">
                             <div>
                                 <h1>Создать аккаунт</h1>
                             </div>
                             <div>
                                 <label for="email">Email*</label>
-                                <input class="inputEmail" name="email" type="email" placeholder="mail@example.com">
+                                <input class="inputEmail" name="email" type="email" placeholder="mail@example.com" required>
                             </div>
                             <div>
                                 <label for="name">Отображение имя*</label>
-                                <input class="inputName" name="name" type="text">
+                                <input class="inputName" name="name" type="text" required>
                             </div>
                             <div>
                                 <label for="password">Пароль*</label>
-                                <input class="inputPassword" name="password" type="password">
+                                <input class="inputPassword" name="password" type="password" required>
                             </div>
                             <div>
                                 <label for="truepassword">Подтвердите пароль*</label>
-                                <input class="inputTruePassword" name="truepassword" type="password">
+                                <input class="inputTruePassword" name="truepassword" type="password" required>
                             </div>
                             <div>
-                                <input class="checkbox" type="checkbox">
+                                <input class="checkbox" type="checkbox" required>
                                 <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Пользовательское соглашение</a>
                             </div>
                             <div>
-                                <button class="create_account_button">Создать аккаунт</button>
+                                <button type="submit" class="create_account_button">Создать аккаунт</button>
                                 <span class="center">Уже есть аккаунт?<a href="login.html">Войти</a></span>
                             </div>
-                        </div>
+                        </form>
                         <div class="image">
                             <img src="images/logo.svg">
                         </div>
@@ -137,8 +138,8 @@
         </div>
         
 
-        <script src="navbar.js"></script>
-        <script src="reg.js"></script>
-        <script src="session.js"></script>
+        <script src="js/navbar.js"></script>
+        <script src="js/session.js"></script>
+        <script src="js/reg.js"></script>
     </body>
 </html>

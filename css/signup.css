@@ -1,0 +1,154 @@
+body{
+    height: 100vh;
+    margin: 0;
+    color: #fafafa;
+    background-color: #09090B;
+}
+
+
+
+
+
+
+/*MAIN*/
+.container{
+    height: 99%;
+    width: 100%;
+}
+
+.left_margin{
+    height: 100%;
+    padding-left: 6%;
+}
+
+.upper_margin{
+    padding-top: 5%;
+    width: 100%;
+    height: 100%;
+}
+
+
+.main{
+    border: 1px solid rgba(128, 128, 128, 0.473);
+    border-radius: 10px;
+    width: 1370px;
+    height: 700px;
+    display: flex;
+}
+
+.form{
+    border-right: 1px solid rgba(128, 128, 128, 0.473);
+    padding-block: 10%;
+    padding-inline: 13%;
+    display: grid;
+    gap: 10px;
+}
+
+.form a{
+    color: #fafafa;
+}
+
+.form h1{
+    margin: 0;
+    text-align: center;
+}
+
+.form input{
+    margin-top: 5px;
+    padding: 8px 12px;
+    font-weight: 600;
+    width: 350px;
+    height: 40px;
+    border: 0;
+    border-radius: 8px;
+    border: 1px solid rgba(128, 128, 128, 0.479);
+    background-color: #09090B;
+    color: #fafafa;
+    box-sizing: border-box;
+}
+
+.checkbox{
+    transform: scale(0.5);
+}
+
+.center{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px;
+}
+
+.create_account_button{
+    margin-bottom: 10px;
+    font-weight: 600;
+    padding: 8px 16px;
+    width: 350px;
+    height: 40px;
+    border: 0;
+    border-radius: 8px;
+}
+
+.image{
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/noimage-single-big.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.image img{
+    margin: 20px;
+    width: 200px;
+    height: 54px;
+}
+
+
+
+
+
+
+
+
+.button:hover{
+    cursor: pointer;
+}
+
+.underline{
+    margin-block: 5px;
+    margin-inline: 10%;
+    border-bottom: 2px solid #4d4c4c85;
+}
+
+.hidden{
+    display: none;
+}
+
+.block{
+    display: block;
+}
+
+.rounded-full{
+    border-radius: 9999px;
+}
+
+.flex{
+    display: flex;
+}
+
+.x-center{
+    justify-content: center;
+}
+
+.y-center{
+    align-items: center;
+}
+
+.margin{
+    margin-left: 354px;
+    display: flex;
+}
+
+.remove_margins{
+    margin: 0;
+    padding: 0;
+}

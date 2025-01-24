@@ -1,3 +1,4 @@
+const form = document.querySelector('.form')
 const inputEmail = document.querySelector('.inputEmail');
 const inputName = document.querySelector('.inputName');
 const inputPassword = document.querySelector('.inputPassword');
@@ -17,7 +18,8 @@ class Person {
     }
 }
 
-createAccountButton.addEventListener('click', () => {
+form.addEventListener('submit', (event) => {
+    event.preventDefault();
     let equalPassword = (inputPassword.value === inputTruePassword.value);
 
     if(checkbox.checked === false || 

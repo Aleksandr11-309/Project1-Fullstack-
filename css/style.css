@@ -8,131 +8,6 @@ body{
 
 
 
-/* LEFT NAVBAR */
-.left_navbar{
-    position: fixed;
-    background-color: rgb(9, 9, 11, 1);
-    border: 2px solid #ffffff;
-    height: 100vh;
-    z-index: 2;
-}
-
-.left_navbar_container{
-    margin: 10px;
-}
-
-.left_navbar img{
-    height: 20px;
-    width: 20px;
-    padding: 5px;
-}
-
-.feedback {
-    margin-top: 300px;
-}
-
-.left_navbar_item:hover{
-    background-color: #27272A;
-    border: 1px solid #4d4c4c85;
-    border-radius: 10px;
-}
-
-
-
-
-
-
-
-/* TOP NAVBAR */
-.top_navbar{
-    position: fixed;
-    width: 100vw;
-    border: 2px solid #ffffff;
-    z-index: 1;
-    background-color: rgba(9, 9, 11, 0.522);
-    backdrop-filter: blur(10px);
-}
-
-.top_navbar img{
-    margin-right: 50px;
-    height: 50px;
-    width: 150px;
-}
-
-.search{
-    margin-inline: 15px;
-    background-color: #18181B;
-    border: 1px solid #4d4c4c85;
-    border-radius: 5px;
-}
-
-.search .search-icon{
-    margin: 0 0 0 10px;
-    height: 12px;
-    width: 12px;
-    order: -1;
-}
-
-.top_navbar_input{
-    color:#ffffff;
-    background-color: #18181B;
-    padding: 9px 12px;
-    border: 0; 
-}
-
-.top_navbar_input:focus{
-    outline: none;
-}
-
-.top_navbar_select{
-    color: #ffffff;
-    background-color: #09090B;
-    border: 0;
-    border-left: 1px solid #4d4c4c85;
-    border-radius: 5px;
-    padding: 9px 12px;
-}
-
-.top_navbar_button_project{
-    margin-right: 32px;
-    color: #ffffff;
-    background-color: #09090B;
-    border: 0;
-    border-top: 1px solid #4d4c4c;
-    border-right: 1px solid #4d4c4c;
-    border-bottom: 1px solid #4d4c4c;
-    border-left: 1px solid #4d4c4c;
-    border-radius: 5px;
-    padding: 9px 16px;
-}
-
-.top_navbar_button_sign_in{
-    color: #ffffff;
-    background-color: #242527BF;
-    border: 0;
-    border-top: 1px solid #4d4c4c;
-    border-right: 1px solid #4d4c4c;
-    border-bottom: 1px solid #4d4c4c;
-    border-left: 1px solid #4d4c4c;
-    border-radius: 5px;
-    padding: 9px 24px;
-}
-
-.top_navbar_button_sign_up{
-    background-color: #ffffff;
-    border: 0;
-    border-top: 1px solid #4d4c4c;
-    border-right: 1px solid #4d4c4c;
-    border-bottom: 1px solid #4d4c4c;
-    border-left: 1px solid #4d4c4c;
-    border-radius: 5px;
-    padding: 9px 24px;
-}
-
-
-
-
-
 /* MAIN */
 .main_container{
     height: 99%;
@@ -150,6 +25,7 @@ body{
     height: 90%;
 }
 
+
 .createReview {
     max-width: 800px;
     margin: 50px auto;
@@ -160,11 +36,6 @@ body{
     background: rgb(18,44,46);
     background: linear-gradient(90deg, rgba(18,44,46,1) 20%, rgba(0,0,0,1) 50%, rgba(9,29,31,1) 78%);
 }
-
-/*
-.createReview form {
-    margin-bottom: 20px;
-}*/
 
 .createReview #title, #artist, #review, #rating, #filterRating {
     display: block;
@@ -212,6 +83,7 @@ body{
 .createReview .review p {
     margin: 5px 0;
 }
+
 
 
 

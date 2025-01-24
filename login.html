@@ -3,7 +3,8 @@
     <head>
         <meta charset="UTF-8">
         <title>Риса за творчество</title>
-        <link rel="stylesheet" href="login.css">
+        <link rel="stylesheet" href="css/navbar.css">
+        <link rel="stylesheet" href="css/login.css">
         <link rel="icon" href="images/rzt.png" type="image/png">
     </head>
     <body class="flex">
@@ -99,24 +100,24 @@
             <div class="left_margin">
                 <div class="upper_margin">
                     <main class="main">
-                        <div class="form">
+                        <form class="form">
                             <div>
                                 <h1>Вход</h1>
                                 <p>Введите свои данные для входа в аккаунт</p>
                             </div>
                             <div>
                                 <label for="email">Email*</label>
-                                <input class="inputEmail" name="email" type="email" placeholder="Ваш Email">
+                                <input class="inputEmail" name="email" type="email" placeholder="Ваш Email" required>
                             </div>
                             <div>
                                 <label for="password">Пароль*</label>
-                                <input class="inputPassword" name="password" type="password" placeholder="Ваш пароль">
+                                <input class="inputPassword" name="password" type="password" placeholder="Ваш пароль" required>
                             </div>
                             <div>
-                                <button class="sign_in_button">Войти</button>
+                                <button type="submit" class="sign_in_button">Войти</button>
                                 <a href="signup.html"><button class="sign_up_button">Зарегистрироваться</button></a>
                             </div>
-                        </div>
+                        </form>
                         <div class="image">
                             <img src="images/logo.svg">
                         </div>
@@ -126,8 +127,8 @@
         </div>
         
 
-        <script src="navbar.js"></script>
-        <script src="auth.js"></script>
-        <script src="session.js"></script>
+        <script src="js/navbar.js"></script>
+        <script src="js/session.js"></script>
+        <script src="js/auth.js"></script>
     </body>
 </html>
