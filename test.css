@@ -1,18 +1,63 @@
-body{
-    background-color: black;
-    color: #ffffff;
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
 }
 
-.image{
-    width: 680px;
-    height: 700px;
-    background-image: url("images/noimage-single-big.jpeg");
-    background-size: 500px 500px;
-    background-repeat: no-repeat;
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
 }
 
-.image img{
-    margin: 20px;
+#search {
+    padding: 8px;
+    width: 300px;
+    border: none;
+    border-radius: 4px;
+}
+
+#searchButton {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#albums {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.album {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
     width: 200px;
-    height: 54px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.album img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+#albumDetails {
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 20px;
+}
+
+.hidden {
+    display: none;
 }

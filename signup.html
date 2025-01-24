@@ -3,10 +3,10 @@
     <head>
         <meta charset="UTF-8">
         <title>Риса за творчество</title>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="signup.css">
         <link rel="icon" href="images/rzt.png" type="image/png">
     </head>
-    <body>
+    <body class="flex">
         <aside class="left_navbar">
             <nav class="left_navbar_container">
                 <ul class="remove_margins" type="none">
@@ -90,66 +90,55 @@
                     <a href="https://github.com/Aleksandr11-309/Project1-Fullstack-"><button class="top_navbar_button_project button">Проект</button></a>
                     <div>
                         <a href="login.html"><button class="top_navbar_button_sign_in button">Войти</button></a>
-                        <a href="signup.html"><button class="top_navbar_button_sign_up button">Регистрация</button></a>
+                        <a href="#"><button class="top_navbar_button_sign_up button">Регистрация</button></a>
                     </div>
                 </div>
             </nav>
         </header>
-        <main class="main_container">
-            <div class="authors_liked_it">
-                <div class="authors_liked_it_header">
-                    <div class="left_block">
-                        <img src="images/authors_liked_it_icon.svg">
-                        <span>Понравилось авторам</span>
-                    </div>
-                    <div class="right_block">
-                        <span class="external_text rounded-full">Все авторские лайки <span class="inner_text rounded-full">2000</span></span>
-                        <div class="buttons_less_greater">
-                            <span class="rounded-full">&lt;</span>
-                            <span class="rounded-full">&gt;</span>
+        <div class="container">
+            <div class="left_margin">
+                <div class="upper_margin">
+                    <main class="main">
+                        <div class="form">
+                            <div>
+                                <h1>Создать аккаунт</h1>
+                            </div>
+                            <div>
+                                <label for="email">Email*</label>
+                                <input class="inputEmail" name="email" type="email" placeholder="mail@example.com">
+                            </div>
+                            <div>
+                                <label for="name">Отображение имя*</label>
+                                <input class="inputName" name="name" type="text">
+                            </div>
+                            <div>
+                                <label for="password">Пароль*</label>
+                                <input class="inputPassword" name="password" type="password">
+                            </div>
+                            <div>
+                                <label for="truepassword">Подтвердите пароль*</label>
+                                <input class="inputTruePassword" name="truepassword" type="password">
+                            </div>
+                            <div>
+                                <input class="checkbox" type="checkbox">
+                                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Пользовательское соглашение</a>
+                            </div>
+                            <div>
+                                <button class="create_account_button">Создать аккаунт</button>
+                                <span class="center">Уже есть аккаунт?<a href="login.html">Войти</a></span>
+                            </div>
                         </div>
-                    </div>
+                        <div class="image">
+                            <img src="images/logo.svg">
+                        </div>
+                    </main>            
                 </div>
-                <ul class="list" type="none">
-                    <li class="list-background">
-                        <div class="list_header">
-                            <img class="user_list_icon" src="images/user_list_icon.jpeg">
-                            <span>SPlash</span>
-                            <img class="release_list_icon" src="images/release_list_icon.jpeg">
-                        </div>
-                        <div class="list_main">
-                            <span>металлично</span>
-                        </div>
-                        <div class="list_footer">
-                            <img class="author_list_icon" src="images/author_list_icon.png">
-                            <span>Bouvrd</span>
-                            <img class="authors_liked_it_icon" src="images/authors_liked_it(2version)_icon.png">
-                        </div>
-                    </li>
-                </ul>
             </div>
-        </main>
-        <footer class="footer_container">
-            <div>
-                <img class="button" alt="tg" src="images/telegram_icon.png">
-                <img class="button" alt="twitch" src="images/twitch_icon.png">
-                <img class="button" alt="vk" src="images/vk_icon.png">
-                <img class="button" alt="yandex_music" src="images/yandex_music_icon.svg">
-                <img class="button" alt="youtube" src="images/youtube_icon.png">
-                <img class="button" alt="boosty" src="images/boosty_icon.svg">
-            </div>
-            <div>
-                <span>«Риса за Творчество» © 2024</span>
-                <span>Обратная связь</span>
-                <span>Политика обработки персональных данных</span>
-                <span>Пользовательское соглашение</span>
-                <span>Техническая поддержка: support@risazatvorchestvo.com</span>
-                <span>Предложения о сотрудничестве: info@risazatvorchestvo.com</span>
-
-            </div>
-        </footer>
+        </div>
+        
 
         <script src="index.js"></script>
+        <script src="reg.js"></script>
         <script src="session.js"></script>
     </body>
 </html>
