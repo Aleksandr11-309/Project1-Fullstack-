@@ -53,7 +53,7 @@ body{
     text-align: center;
 }
 
-.form input{
+.form input:not([type="checkbox"]){
     margin-top: 5px;
     padding: 8px 12px;
     font-weight: 600;
@@ -65,10 +65,6 @@ body{
     background-color: #09090B;
     color: #fafafa;
     box-sizing: border-box;
-}
-
-.checkbox{
-    transform: scale(0.5);
 }
 
 .center{

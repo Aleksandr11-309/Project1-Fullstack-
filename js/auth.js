@@ -2,6 +2,11 @@ const form = document.querySelector('.form');
 const inputEmail = document.querySelector('.inputEmail');
 const inputPassword = document.querySelector('.inputPassword');
 const signInButton = document.querySelector('.sign_in_button');
+const signUpButton = document.querySelector('.sign_up_button');
+
+signUpButton.addEventListener('click', () => {
+    window.location.replace('signup.html');
+});
 
 form.addEventListener('submit', (event) => {
     event.preventDefault();
