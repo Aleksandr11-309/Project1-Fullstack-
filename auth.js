@@ -8,6 +8,6 @@ signInButton.addEventListener('click', () => {
     else if(person.password !== inputPassword.value) alert("Неверный пароль!");
     else {
         sessionStorage.setItem('auth', `${person.name}`);
-        location.reload();
+        window.location.replace('index.html');
     }
 });

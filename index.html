@@ -96,60 +96,61 @@
             </nav>
         </header>
         <main class="main_container">
-            <div class="authors_liked_it">
-                <div class="authors_liked_it_header">
-                    <div class="left_block">
-                        <img src="images/authors_liked_it_icon.svg">
-                        <span>Понравилось авторам</span>
-                    </div>
-                    <div class="right_block">
-                        <span class="external_text rounded-full">Все авторские лайки <span class="inner_text rounded-full">2000</span></span>
-                        <div class="buttons_less_greater">
-                            <span class="rounded-full">&lt;</span>
-                            <span class="rounded-full">&gt;</span>
+            <div class="left_margin">
+                <div class="upper_margin">
+                    <div class="createReview">
+                        <h1>Оставьте рецензию</h1>
+                        <form id="reviewForm">
+                            <input type="text" id="title" required placeholder="Название трека/альбома:">
+                            <input type="text" id="artist" required placeholder="Исполнитель:">
+                            <textarea id="review" rows="4" required placeholder="Отзыв:"></textarea>
+                            <input type="number" id="rating" min="1" max="5" required placeholder="Оценка (от 1 до 5):">
+                            <button type="submit" id="createReview_button">Создать рецензию</button>
+                        </form>
+                
+                        <h2>Все рецензии</h2>
+                        <div>
+                            <label for="filterRating">Фильтр по оценке:</label>
+                            <select id="filterRating">
+                                <option value="0">Все</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select>
+                        </div>
+                        <div id="reviewsList">
+
                         </div>
                     </div>
+                    
+                    <footer class="footer_container flex">
+                        <div>
+                            <img class="button" alt="tg" src="images/telegram_icon.png">
+                            <img class="button" alt="twitch" src="images/twitch_icon.png">
+                            <img class="button" alt="vk" src="images/vk_icon.png">
+                            <img class="button" alt="yandex_music" src="images/yandex_music_icon.svg">
+                            <img class="button" alt="youtube" src="images/youtube_icon.png">
+                            <img class="button" alt="boosty" src="images/boosty_icon.svg">
+                        </div>
+                        <div class="footer_container-links ">
+                            <p>«Риса за Творчество» © 2024</p>
+                            <a href="#">Обратная связь</a>
+                            <a href="#">Политика обработки персональных данных</a>
+                            <a href="#">Пользовательское соглашение</a>
+                            <a href="#">Техническая поддержка: support@risazatvorchestvo.com</a>
+                            <a href="#">Предложения о сотрудничестве: info@risazatvorchestvo.com</a>
+            
+                        </div>
+                    </footer>
                 </div>
-                <ul class="list" type="none">
-                    <li class="list-background">
-                        <div class="list_header">
-                            <img class="user_list_icon" src="images/user_list_icon.jpeg">
-                            <span>SPlash</span>
-                            <img class="release_list_icon" src="images/release_list_icon.jpeg">
-                        </div>
-                        <div class="list_main">
-                            <span>металлично</span>
-                        </div>
-                        <div class="list_footer">
-                            <img class="author_list_icon" src="images/author_list_icon.png">
-                            <span>Bouvrd</span>
-                            <img class="authors_liked_it_icon" src="images/authors_liked_it(2version)_icon.png">
-                        </div>
-                    </li>
-                </ul>
             </div>
         </main>
-        <footer class="footer_container">
-            <div>
-                <img class="button" alt="tg" src="images/telegram_icon.png">
-                <img class="button" alt="twitch" src="images/twitch_icon.png">
-                <img class="button" alt="vk" src="images/vk_icon.png">
-                <img class="button" alt="yandex_music" src="images/yandex_music_icon.svg">
-                <img class="button" alt="youtube" src="images/youtube_icon.png">
-                <img class="button" alt="boosty" src="images/boosty_icon.svg">
-            </div>
-            <div>
-                <span>«Риса за Творчество» © 2024</span>
-                <span>Обратная связь</span>
-                <span>Политика обработки персональных данных</span>
-                <span>Пользовательское соглашение</span>
-                <span>Техническая поддержка: support@risazatvorchestvo.com</span>
-                <span>Предложения о сотрудничестве: info@risazatvorchestvo.com</span>
-
-            </div>
-        </footer>
+        
 
         <script src="index.js"></script>
+        <script src="navbar.js"></script>
         <script src="session.js"></script>
     </body>
 </html>

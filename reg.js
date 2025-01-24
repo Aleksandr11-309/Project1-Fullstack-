@@ -29,6 +29,7 @@ createAccountButton.addEventListener('click', () => {
     else {
         let person = new Person(inputName.value, inputEmail.value, inputPassword.value);
         localStorage.setItem(`${person.mail}`, JSON.stringify(person));
-        alert(`Пожалуйста ${person.name}, нажмите войти и выполните вход!`);
+        // alert(`Пожалуйста ${person.name}, нажмите войти и выполните вход!`);
+        window.location.replace('login.html');
     }
 });
